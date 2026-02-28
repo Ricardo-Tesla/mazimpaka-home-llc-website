@@ -2,40 +2,75 @@
 <html lang="en">
 
 <head>
+    <!-- ── Character & Viewport ── -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ── Primary SEO ── -->
     <meta name="description"
-        content="Expert installation of vinyl plank flooring and residential roofing with personalized service in Brown County.">
-    <meta name="keywords" content="flooring, roofing, vinyl plank flooring, residential roofing, Brown County">
-    <title>Mazimpaka Home LLC - Quality Flooring & Roofing Solutions</title>
+        content="Mazimpaka Home LLC offers expert vinyl plank flooring and residential roofing installation in Brown County. Upfront pricing, quality materials, and personalized service on every project.">
+    <meta name="author" content="Mazimpaka Home LLC">
+    <meta name="keywords"
+        content="vinyl plank flooring Brown County, residential roofing Brown County, flooring installation, roofing contractor, home improvement Brown County">
+
+    <!-- ── Canonical URL — tells Google the official URL ── -->
+    <link rel="canonical" href="https://www.mazimpakahomellc.com/">
+
+    <!-- ── Open Graph — controls how link looks when shared on social media ── -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mazimpaka Home LLC">
+    <meta property="og:title" content="Mazimpaka Home LLC | Quality Flooring & Roofing in Brown County">
+    <meta property="og:description"
+        content="Expert vinyl plank flooring and residential roofing installation in Brown County. Upfront pricing, quality craftsmanship, and personalized service.">
+    <meta property="og:image" content="https://www.mazimpakahomellc.com/images/og-image.jpg">
+    <meta property="og:url" content="https://www.mazimpakahomellc.com/">
+
+    <!-- ── Twitter Card ── -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mazimpaka Home LLC | Quality Flooring & Roofing in Brown County">
+    <meta name="twitter:description"
+        content="Expert vinyl plank flooring and residential roofing installation in Brown County. Upfront pricing, quality craftsmanship, and personalized service.">
+    <meta name="twitter:image" content="https://www.mazimpakahomellc.com/images/og-image.jpg">
+
+    <!-- ── Favicon ── -->
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+
+    <!-- ── Preload hero images for faster loading ── -->
+    <link rel="preload" href="./images/vinyl-hero.jpg" as="image">
+
+    <!-- ── Stylesheet ── -->
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/services.css">
-    <link rel="stylesheet" href="css/why-choose-us.css">
-    <link rel="stylesheet" href="css/how-we-work.css">
-    <link rel="stylesheet" href="css/contact.css">
+
+    <!-- ── Page Title ── -->
+    <title>Mazimpaka Home LLC | Quality Flooring & Roofing in Brown County</title>
 </head>
 
 <body>
-    <!-- Header Section -->
-    <header class="site-header">
+
+    <header class="site-header" role="banner">
         <div class="container">
+
             <!-- Logo and Brand -->
-            <div class="brand">
-                <a href="/" aria-label="Mazimpaka Home LLC - Home">
-                    <img src="./images/Mazimpaka logo.png" alt="Mazimpaka Home LLC Logo" class="logo-icon">
-                </a>
-            </div>
+            <a href="#" class="brand" aria-label="Mazimpaka Home LLC - Go to homepage">
+                <img src="./images/Mazimpaka logo.png" alt="Mazimpaka Home LLC Logo" class="logo-icon" width="72"
+                    height="auto" loading="eager">
+                <span class="brand-name">Mazimpaka Home LLC</span>
+            </a>
 
             <!-- Burger Menu Button -->
-            <button class="burger-menu" aria-label="Toggle navigation menu" aria-expanded="false">
+            <button class="burger-menu" aria-label="Toggle navigation menu" aria-expanded="false"
+                aria-controls="main-navigation">
                 <span></span>
                 <span></span>
                 <span></span>
             </button>
 
             <!-- Primary Navigation -->
-            <nav class="main-navigation" aria-label="Main navigation">
-                <ul class="nav-list">
+            <nav id="main-navigation" class="main-navigation" aria-label="Main navigation">
+                <ul class="nav-list" role="list">
                     <li class="nav-item">
                         <a href="#" class="nav-link active" aria-current="page">Home</a>
                     </li>
@@ -43,10 +78,10 @@
                         <a href="#services" class="nav-link">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#why-choose-us" class="nav-link">Why choose us</a>
+                        <a href="#why-choose-us" class="nav-link">Why Choose Us</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#how-we-work" class="nav-link">How we work</a>
+                        <a href="#how-we-work" class="nav-link">How We Work</a>
                     </li>
                 </ul>
             </nav>
@@ -55,142 +90,220 @@
             <div class="header-cta">
                 <a href="#contact" class="btn btn-primary">
                     Let's connect
-                    <svg class="icon-arrow" width="20" height="20" viewBox="0 0 20 20" aria-hidden="true">
-                        <path d="M5 5 L15 15 M15 5 L15 15 L5 15" fill="none" stroke="currentColor" stroke-width="2" />
+                    <svg class="icon-arrow" width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+                        <path d="M3 9H15M15 9L9 3M15 9L9 15" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" />
                     </svg>
                 </a>
             </div>
+
         </div>
     </header>
 
     <!-- Main Content -->
     <main id="main-content">
         <!-- Hero Section -->
-        <section id="#home" class="hero-section">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
             <div class="container">
                 <div class="hero-content">
+
                     <!-- Hero Text Content -->
-                    <article class="hero-text">
+                    <div class="hero-text">
+
+                        <!-- Label above heading -->
+                        <p class="hero-label">Brown County's Trusted Installer</p>
+
                         <h1 class="hero-title">
-                            Quality Flooring & Roofing Solutions for Your Home
+                            Quality Flooring &amp; Roofing Solutions for Your Home
                         </h1>
 
                         <p class="hero-description">
-                            Expert installation of vinyl plank flooring and residential roofing with personalized
-                            service, upfront pricing, and a commitment to excellence in every project in Brown County.
+                            Expert installation of vinyl plank flooring and residential
+                            roofing with personalized service, upfront pricing, and a
+                            commitment to excellence in every project in Brown County.
                         </p>
 
                         <!-- Hero Actions -->
                         <div class="hero-actions">
-                            <a href="/estimate" class="btn btn-secondary">Get free estimate</a>
-                            <a href="/how-it-works" class="btn btn-tertiary">See how it works</a>
+                            <a href="#contact" class="btn btn-secondary">
+                                Get Free Estimate
+                            </a>
+                            <a href="#how-we-work" class="btn btn-tertiary">
+                                See How It Works
+                            </a>
                         </div>
-                    </article>
+
+
+
+                    </div>
 
                     <!-- Hero Images -->
-                    <div class="hero-images">
+                    <div class="hero-images" aria-hidden="true">
+
                         <!-- Main Featured Image -->
                         <figure class="hero-image-main">
                             <img src="images/vinyl-hero.jpg"
-                                alt="Modern minimalist room with quality vinyl plank flooring installation" width="600"
-                                height="700" loading="eager">
+                                alt="Modern room with quality vinyl plank flooring installed by Mazimpaka Home LLC"
+                                width="600" height="700" loading="eager" decoding="async">
                         </figure>
 
                         <!-- Secondary Featured Image -->
                         <figure class="hero-image-secondary">
-                            <img src="images/roof-hero.jpg" alt="Professional roofing installation" width="400"
-                                height="500" loading="eager">
+                            <img src="images/roof-hero.jpg"
+                                alt="Professional residential roofing installation by Mazimpaka Home LLC" width="400"
+                                height="500" loading="eager" decoding="async">
                         </figure>
+
                     </div>
+
                 </div>
             </div>
         </section>
 
 
         <!-- Services & Solutions Section -->
+        <!-- Services & Solutions Section -->
         <section class="services-section" id="services">
             <div class="container">
+
                 <!-- Section Header -->
-                <header class="services-header">
-                    <h2 class="section-title-service">Our services & solutions</h2>
-                    <p class="section-description">
-                        Professional installation services that enhance your home's beauty, value, and protection. We
-                        deliver quality workmanship with transparent pricing and personalized care on every project
+                <div class="services-header">
+                    <h2 class="services-title">Our Services &amp; Solutions</h2>
+                    <p class="services-description">
+                        Professional installation services that enhance your home's
+                        beauty, value, and protection. We deliver quality workmanship
+                        with transparent pricing and personalized care on every project.
                     </p>
-                </header>
+                </div>
 
                 <!-- Services Grid -->
-                <div class="services-grid">
+                <div class="services-grid" aria-label="Our services">
+
                     <!-- Vinyl Plank Flooring Card -->
-                    <article class="service-card" data-service="flooring">
+                    <article class="service-card" id="service-flooring">
+
                         <figure class="service-image">
                             <img src="images/vinyl-service.jpg"
                                 alt="Vinyl plank flooring installation tools and materials" width="800" height="600"
-                                loading="lazy">
+                                loading="lazy" decoding="async">
                         </figure>
+
                         <div class="service-content service-content-brown">
-                            <h3 class="service-title">Vinyl Plank Flooring Installation</h3>
+
+                            <h3 class="service-title">
+                                Vinyl Plank Flooring Installation
+                            </h3>
+
                             <p class="service-description">
-                                Professional installation of beautiful, durable vinyl plank flooring that gives you the
-                                elegant look of hardwood with superior water resistance and easy maintenance. Perfect
-                                for kitchens, bathrooms, basements, and any high-traffic area in your home.
+                                Professional installation of beautiful, durable vinyl
+                                plank flooring that gives you the elegant look of
+                                hardwood with superior water resistance and easy
+                                maintenance. Perfect for kitchens, bathrooms, basements,
+                                and any high-traffic area in your home.
                             </p>
-                            <aside class="service-features">
-                                <h4 class="features-title">Features</h4>
-                                <ul class="features-list">
-                                    <li class="feature-item">Complete Installation Service</li>
-                                    <li class="feature-item">Expert Subfloor Preparation</li>
-                                    <li class="feature-item">Durable, Low-Maintenance Results</li>
+
+                            <div class="service-features">
+                                <h4 class="features-title">What Is Included</h4>
+                                <ul class="features-list" role="list">
+                                    <li class="feature-item">
+                                        Complete Installation Service
+                                    </li>
+                                    <li class="feature-item">
+                                        Expert Subfloor Preparation
+                                    </li>
+                                    <li class="feature-item">
+                                        Durable, Low-Maintenance Results
+                                    </li>
                                 </ul>
-                            </aside>
+                            </div>
+
+                            <a href="#contact" class="service-cta"
+                                aria-label="Get a free estimate for vinyl plank flooring">
+                                Get Free Estimate →
+                            </a>
+
                         </div>
+
                     </article>
 
                     <!-- Residential Roofing Card -->
-                    <article class="service-card" data-service="roofing">
+                    <article class="service-card" id="service-roofing">
+
                         <figure class="service-image">
                             <img src="images/roof-service.jpg"
                                 alt="Residential roofing with quality shingles installation" width="800" height="600"
-                                loading="lazy">
+                                loading="lazy" decoding="async">
                         </figure>
+
                         <div class="service-content service-content-navy">
-                            <h3 class="service-title">Residential Roofing Installation</h3>
+
+                            <h3 class="service-title">
+                                Residential Roofing Installation
+                            </h3>
+
                             <p class="service-description">
-                                Complete roof installation and replacement services for your home and garage. We use
-                                quality materials and proven techniques to deliver a roof that protects your property,
-                                withstands harsh weather, and lasts for decades.
+                                Complete roof installation and replacement services
+                                for your home and garage. We use quality materials
+                                and proven techniques to deliver a roof that protects
+                                your property, withstands harsh weather, and lasts
+                                for decades.
                             </p>
-                            <aside class="service-features">
-                                <h4 class="features-title">Features</h4>
-                                <ul class="features-list">
-                                    <li class="feature-item">Complete Roof Replacement</li>
-                                    <li class="feature-item">Advanced Weather Protection</li>
-                                    <li class="feature-item">Durable, Low-Maintenance Results</li>
+
+                            <div class="service-features">
+                                <h4 class="features-title">What Is Included</h4>
+                                <ul class="features-list" role="list">
+                                    <li class="feature-item">
+                                        Complete Roof Replacement
+                                    </li>
+                                    <li class="feature-item">
+                                        Advanced Weather Protection
+                                    </li>
+                                    <li class="feature-item">
+                                        Durable, Low-Maintenance Results
+                                    </li>
                                 </ul>
-                            </aside>
+                            </div>
+
+                            <a href="#contact" class="service-cta"
+                                aria-label="Get a free estimate for residential roofing">
+                                Get Free Estimate →
+                            </a>
+
                         </div>
+
                     </article>
+
                 </div>
+
             </div>
         </section>
+
+
+        <!-- Why Choose Us Section -->
         <!-- Why Choose Us Section -->
         <section class="why-choose-section" id="why-choose-us">
             <div class="why-choose-container">
+
                 <!-- Section Header -->
                 <div class="section-header">
-                    <span class="section-label">Why Choose Us</span>
-                    <h2 class="section-title">Your Trusted Partner for Quality Installation</h2>
+                    <p class="section-label">Why Choose Us</p>
+                    <h2 class="section-title">
+                        Your Trusted Partner for Quality Installation
+                    </h2>
                     <p class="section-subtitle">
-                        We deliver professional flooring and roofing solutions with transparent pricing,
-                        exceptional craftsmanship, and unwavering commitment to your satisfaction.
+                        We deliver professional flooring and roofing solutions
+                        with transparent pricing, exceptional craftsmanship,
+                        and unwavering commitment to your satisfaction.
                     </p>
                 </div>
 
                 <!-- Features Grid -->
-                <div class="features-grid">
-                    <!-- Feature 1 -->
-                    <article class="feature-card">
-                        <div class="feature-icon">
+                <div class="features-grid" aria-label="Our key advantages">
+
+                    <!-- Feature 1 — Transparent Pricing -->
+                    <div class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">
                             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <line x1="12" y1="1" x2="12" y2="23" />
@@ -200,18 +313,19 @@
                         <div class="feature-content">
                             <h3 class="feature-title">Transparent Pricing</h3>
                             <p class="feature-description">
-                                Receive detailed, upfront estimates with complete cost breakdowns. No hidden fees,
-                                no surprises—just honest pricing you can trust from start to finish.
+                                Receive detailed, upfront estimates with complete
+                                cost breakdowns. No hidden fees, no surprises —
+                                just honest pricing you can trust from start to finish.
                             </p>
                         </div>
-                        <div class="decorative-line"></div>
-                    </article>
+                        <div class="decorative-line" aria-hidden="true"></div>
+                    </div>
 
-                    <!-- Feature 2 -->
-                    <article class="feature-card">
-                        <div class="feature-icon">
+                    <!-- Feature 2 — Expert Craftsmanship -->
+                    <div class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">
                             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                stroke-width="2">
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M12 2L2 7l10 5 10-5-10-5z" />
                                 <path d="M2 17l10 5 10-5" />
                                 <path d="M2 12l10 5 10-5" />
@@ -220,18 +334,18 @@
                         <div class="feature-content">
                             <h3 class="feature-title">Expert Craftsmanship</h3>
                             <p class="feature-description">
-                                Experience superior installation using industry-leading techniques and premium
-                                materials.
-                                Our skilled team ensures every project meets the highest standards of quality and
-                                durability.
+                                Experience superior installation using
+                                industry-leading techniques and premium materials.
+                                Our skilled team ensures every project meets the
+                                highest standards of quality and durability.
                             </p>
                         </div>
-                        <div class="decorative-line"></div>
-                    </article>
+                        <div class="decorative-line" aria-hidden="true"></div>
+                    </div>
 
-                    <!-- Feature 3 -->
-                    <article class="feature-card">
-                        <div class="feature-icon">
+                    <!-- Feature 3 — Safety First -->
+                    <div class="feature-card">
+                        <div class="feature-icon" aria-hidden="true">
                             <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                                 stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
                                 <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
@@ -240,116 +354,136 @@
                         <div class="feature-content">
                             <h3 class="feature-title">Safety-First Approach</h3>
                             <p class="feature-description">
-                                Your safety and peace of mind are paramount. We maintain immaculate work sites with
-                                organized tools, daily cleanup, and strict safety protocols throughout every project
-                                phase.
+                                Your safety and peace of mind are paramount.
+                                We maintain immaculate work sites with organized
+                                tools, daily cleanup, and strict safety protocols
+                                throughout every project phase.
                             </p>
                         </div>
-                        <div class="decorative-line"></div>
-                    </article>
+                        <div class="decorative-line" aria-hidden="true"></div>
+                    </div>
+
                 </div>
+
             </div>
         </section>
 
         <!-- How We Work Section -->
+        <!-- How We Work Section -->
         <section class="how-we-work-section" id="how-we-work">
             <div class="container">
-                <!-- Section Header -->
-                <header class="how-we-work-header">
-                    <h2 class="section-title">How we work</h2>
-                    <p class="section-description">
-                        We follow a clear and organized process to ensure every project is completed efficiently,
-                        safely, and to your satisfaction.
-                    </p>
-                </header>
 
-                <!-- Process Steps -->
-                <div class="process-steps">
+                <!-- Section Header -->
+                <div class="how-we-work-header">
+                    <p class="section-label">Our Process</p>
+                    <h2 class="section-title">How We Work</h2>
+                    <p class="how-we-work-description">
+                        We follow a clear and organized process to ensure every
+                        project is completed efficiently, safely, and to your
+                        satisfaction.
+                    </p>
+                </div>
+
+                <!-- Process Steps — ol is semantically correct for ordered steps -->
+                <ol class="process-steps" aria-label="Our work process">
+
                     <!-- Step 1 -->
-                    <article class="process-step" data-step="1">
-                        <div class="step-number">
+                    <li class="process-step" data-step="1">
+                        <div class="step-number" aria-hidden="true">
                             <span class="number">01</span>
                         </div>
                         <div class="step-content">
                             <h3 class="step-title">Initial Contact</h3>
                             <p class="step-description">
-                                Reach out by phone or message to discuss your project and schedule a visit.
+                                Reach out by phone or message to discuss your
+                                project and schedule a visit.
                             </p>
                         </div>
-                    </article>
+                    </li>
 
                     <!-- Step 2 -->
-                    <article class="process-step" data-step="2">
-                        <div class="step-number">
+                    <li class="process-step" data-step="2">
+                        <div class="step-number" aria-hidden="true">
                             <span class="number">02</span>
                         </div>
                         <div class="step-content">
                             <h3 class="step-title">Free Estimate</h3>
                             <p class="step-description">
-                                Assessing the project and provide a clear, honest estimate at no cost.
+                                We assess the project and provide a clear, honest
+                                estimate at no cost to you.
                             </p>
                         </div>
-                    </article>
+                    </li>
 
                     <!-- Step 3 -->
-                    <article class="process-step" data-step="3">
-                        <div class="step-number">
+                    <li class="process-step" data-step="3">
+                        <div class="step-number" aria-hidden="true">
                             <span class="number">03</span>
                         </div>
                         <div class="step-content">
                             <h3 class="step-title">Schedule Work</h3>
                             <p class="step-description">
-                                Once approved, we schedule the work at a time that works best for you.
+                                Once approved, we schedule the work at a time
+                                that works best for you.
                             </p>
                         </div>
-                    </article>
+                    </li>
 
                     <!-- Step 4 -->
-                    <article class="process-step" data-step="4">
-                        <div class="step-number">
+                    <li class="process-step" data-step="4">
+                        <div class="step-number" aria-hidden="true">
                             <span class="number">04</span>
                         </div>
                         <div class="step-content">
                             <h3 class="step-title">Installation</h3>
                             <p class="step-description">
-                                Complete the demolition and installation using proper methods and quality materials.
+                                We complete the demolition and installation using
+                                proper methods and quality materials.
                             </p>
                         </div>
-                    </article>
+                    </li>
 
                     <!-- Step 5 -->
-                    <article class="process-step" data-step="5">
-                        <div class="step-number">
+                    <li class="process-step" data-step="5">
+                        <div class="step-number" aria-hidden="true">
                             <span class="number">05</span>
                         </div>
                         <div class="step-content">
                             <h3 class="step-title">Final Review</h3>
                             <p class="step-description">
-                                Review the work with you and leave the job site clean and ready to use.
+                                We review the completed work with you and leave
+                                the job site clean and ready to use.
                             </p>
                         </div>
-                    </article>
-                </div>
+                    </li>
 
-                <!-- Optional: Process Timeline Visual -->
-                <div class="process-timeline" aria-hidden="true">
-                    <div class="timeline-line"></div>
-                </div>
+                </ol>
+
+
             </div>
         </section>
+
+
+        <!-- Contact Section -->
         <!-- Contact Section -->
         <section class="contact-section" id="contact">
             <div class="contact-container">
-                <!-- Left Column - Contact Info -->
+
+                <!-- Left Column — Contact Info -->
                 <div class="contact-info">
-                    <h2 class="contact-title">GET IN TOUCH</h2>
+
+                    <p class="section-label">Get In Touch</p>
+                    <h2 class="contact-title">Let's Talk About Your Project</h2>
 
                     <p class="contact-description">
-                        Have a project in mind? Reach out today for a free estimate. We're ready to answer your
-                        questions, discuss your needs, and schedule your service at a time that works best for you
+                        Have a project in mind? Reach out today for a free estimate.
+                        We are ready to answer your questions, discuss your needs,
+                        and schedule your service at a time that works best for you.
                     </p>
 
-                    <div class="contact-details">
+                    <!-- Semantic address element for contact details -->
+                    <address class="contact-details">
+
                         <div class="contact-item">
                             <svg class="contact-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
@@ -358,7 +492,8 @@
                                 </path>
                                 <polyline points="22,6 12,13 2,6"></polyline>
                             </svg>
-                            <a href="mailto:mazpatrick2@gmail.com" class="contact-label">
+                            <a href="mailto:mazpatrick2@gmail.com" class="contact-label"
+                                aria-label="Send email to Mazimpaka Home LLC">
                                 mazpatrick2@gmail.com
                             </a>
                         </div>
@@ -368,19 +503,20 @@
                                 stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                                 aria-hidden="true">
                                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2
-                     19.79 19.79 0 0 1-8.63-3.07
-                     19.5 19.5 0 0 1-6-6
-                     19.79 19.79 0 0 1-3.07-8.67
-                     A2 2 0 0 1 4.11 2h3
-                     a2 2 0 0 1 2 1.72
-                     12.84 12.84 0 0 0 .7 2.81
-                     a2 2 0 0 1-.45 2.11L8.09 9.91
-                     a16 16 0 0 0 6 6l1.27-1.27
-                     a2 2 0 0 1 2.11-.45
-                     12.84 12.84 0 0 0 2.81.7
-                     A2 2 0 0 1 22 16.92z"></path>
+                         19.79 19.79 0 0 1-8.63-3.07
+                         19.5 19.5 0 0 1-6-6
+                         19.79 19.79 0 0 1-3.07-8.67
+                         A2 2 0 0 1 4.11 2h3
+                         a2 2 0 0 1 2 1.72
+                         12.84 12.84 0 0 0 .7 2.81
+                         a2 2 0 0 1-.45 2.11L8.09 9.91
+                         a16 16 0 0 0 6 6l1.27-1.27
+                         a2 2 0 0 1 2.11-.45
+                         12.84 12.84 0 0 0 2.81.7
+                         A2 2 0 0 1 22 16.92z">
+                                </path>
                             </svg>
-                            <a href="tel:+15735143085" class="contact-label">
+                            <a href="tel:+15735143085" class="contact-label" aria-label="Call Mazimpaka Home LLC">
                                 +1 (573) 514-3085
                             </a>
                         </div>
@@ -394,58 +530,190 @@
                             </svg>
                             <span class="contact-label">Brown County, USA</span>
                         </div>
-                    </div>
+
+                    </address>
 
                 </div>
 
-                <!-- Right Column - Contact Form -->
+                <!-- Right Column — Contact Form -->
                 <div class="contact-form-wrapper">
-                    <h3 class="form-title">SAY SOMETHING</h3>
-                    <div id="responseMessage" class="response-message"></div>
 
-                    <form class="contact-form" id="contactForm">
+                    <h3 class="form-title">Send a Message</h3>
+
+                    <div id="responseMessage" class="response-message" role="alert" aria-live="polite"></div>
+
+                    <form class="contact-form" id="contactForm" novalidate>
+
                         <!-- Full Name -->
                         <div class="form-group">
-                            <label for="fullName" class="form-label">Full Name</label>
-                            <input type="text" id="fullName" name="fullName" class="form-input" placeholder="John Doe"
-                                required>
+                            <label for="fullName" class="form-label">
+                                Full Name
+                            </label>
+                            <input type="text" id="fullName" name="fullName" class="form-input"
+                                placeholder="your full name" autocomplete="name" required>
                         </div>
 
-                        <!-- Phone or Email -->
+                        <!-- Email -->
                         <div class="form-group">
-                            <label for="contactInfo" class="form-label">Email</label>
-                            <input type="text" id="contactInfo" name="contact" class="form-input"
-                                placeholder="john@example.com" required>
+                            <label for="contactInfo" class="form-label">
+                                Email Address
+                            </label>
+                            <input type="email" id="contactInfo" name="contact" class="form-input"
+                                placeholder="abc@example.com" autocomplete="email" required>
                         </div>
 
                         <!-- Message -->
                         <div class="form-group">
-                            <label for="message" class="form-label">Message</label>
+                            <label for="message" class="form-label">
+                                Message
+                            </label>
                             <textarea id="message" name="message" class="form-textarea" rows="6"
-                                placeholder="Your message here..." required></textarea>
+                                placeholder="Tell us about your project..." required></textarea>
                         </div>
 
-                        <!-- Submit Button -->
-                        <button type="submit" id="submitBtn" class="submit-button">
+                        <!-- Submit -->
+                        <button type="submit" id="submitBtn" class="submit-button" aria-label="Submit contact form">
                             SUBMIT
                         </button>
+
                     </form>
                 </div>
+
             </div>
+
+            <!-- LocalBusiness Schema — invisible to users, read by Google -->
+            <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Mazimpaka Home LLC",
+        "description": "Expert installation of vinyl plank flooring and residential roofing in Brown County.",
+        "url": "https://www.mazimpakahomellc.com",
+        "telephone": "+15735143085",
+        "email": "mazpatrick2@gmail.com",
+        "address": {
+            "@type": "PostalAddress",
+            "addressRegion": "Brown County",
+            "addressCountry": "US"
+        },
+        "areaServed": {
+            "@type": "AdministrativeArea",
+            "name": "Brown County"
+        },
+        "serviceType": [
+            "Vinyl Plank Flooring Installation",
+            "Residential Roofing Installation"
+        ],
+        "priceRange": "$$"
+    }
+    </script>
+
         </section>
 
 
     </main>
 
     <!-- Footer -->
-    <footer class="site-footer">
+    <!-- Footer -->
+    <footer class="site-footer" role="contentinfo">
         <div class="footer-container">
-            <p class="footer-copyright">
-                © 2025 Mazimpaka Home LLC All rights reserved.
-            </p>
-            <p class="footer-services">
-                Vinyl Plank Flooring • Shingle Roofing • Demolition
-            </p>
+
+            <!-- Footer Top -->
+            <div class="footer-top">
+
+
+                <!-- Quick Links Column -->
+                <nav class="footer-nav" aria-label="Footer navigation">
+                    <h3 class="footer-heading">Quick Links</h3>
+                    <ul class="footer-links" role="list">
+                        <li>
+                            <a href="#home" class="footer-link">Home</a>
+                        </li>
+                        <li>
+                            <a href="#services" class="footer-link">Services</a>
+                        </li>
+                        <li>
+                            <a href="#why-choose-us" class="footer-link">Why Choose Us</a>
+                        </li>
+                        <li>
+                            <a href="#how-we-work" class="footer-link">How We Work</a>
+                        </li>
+                        <li>
+                            <a href="#contact" class="footer-link">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Services Column -->
+                <div class="footer-services-col">
+                    <h3 class="footer-heading">Our Services</h3>
+                    <ul class="footer-links" role="list">
+                        <li>
+                            <a href="#service-flooring" class="footer-link">
+                                Vinyl Plank Flooring
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#service-roofing" class="footer-link">
+                                Residential Roofing
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#services" class="footer-link">
+                                Demolition
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact Column -->
+                <div class="footer-contact-col">
+                    <h3 class="footer-heading">Contact Us</h3>
+                    <address class="footer-address">
+                        <ul class="footer-links" role="list">
+                            <li>
+                                <a href="tel:+15735143085" class="footer-link" aria-label="Call Mazimpaka Home LLC">
+                                    +1 (573) 514-3085
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:mazpatrick2@gmail.com" class="footer-link"
+                                    aria-label="Email Mazimpaka Home LLC">
+                                    mazpatrick2@gmail.com
+                                </a>
+                            </li>
+                            <li>
+                                <span class="footer-link">
+                                    Brown County, USA
+                                </span>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+
+            </div>
+
+            <!-- Footer Divider -->
+            <div class="footer-divider" aria-hidden="true"></div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+
+                <p class="footer-copyright">
+                    &copy; 2026 Mazimpaka Home LLC. All rights reserved.
+                </p>
+
+                <p class="footer-services-text">
+                    Vinyl Plank Flooring &bull; Shingle Roofing &bull; Demolition
+                </p>
+
+                <!-- Back to Top -->
+                <a href="#home" class="footer-back-top" aria-label="Back to top of page">
+                    Back to Top ↑
+                </a>
+
+            </div>
+
         </div>
     </footer>
 
